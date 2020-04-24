@@ -1,3 +1,6 @@
+body{
+    height: 100%;
+}
 .hamburger{
     margin-top: 15px;
     cursor: pointer;
@@ -117,7 +120,7 @@ nav{
 }
 .hed a{
     text-decoration: none;
-    color: white;
+    color: floralwhite;
 }
 .nood{
     display: flex;
@@ -140,4 +143,52 @@ nav{
 }
 #ic a:hover{
     color: rgb(125, 241, 230);
+}
+
+.bod{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.active-d{
+    background-color: #02727d;
+    width: 30%;
+    height: 675px;
+    color: white;
+    overflow: auto;
+}
+.right{
+    width: 70%;
+}
+.map{
+    background-color: blanchedalmond;
+    height: 70%;
+}
+.details{
+    background-color: cadetblue;
+    height: 30%;
+}
+.id{
+    border: 3px solid #00a9bd;
+    margin: 2%;
+    list-style: none;
+    padding: 10px;
+    background-color: #00a9bd;
+    border-radius: 10px;
+}
+.active-d a{
+    color: white;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: thistle;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #00a9bd;
+}
+::-webkit-scrollbar-button{
+    background-color: thistle;
 }
