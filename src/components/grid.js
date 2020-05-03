@@ -28,12 +28,13 @@ const useStyles = makeStyles((theme) => ({
   },
   map: {
       width: '100%',
+      height: '60vh',
   },
   bottom: {
       width: '100%',
       backgroundColor: '#3f51b5',
       color: 'white',
-      height: '30vh',
+      height: '27vh',
       justifyContent: 'spaceAround',
       alignItems: 'center', 
       textAlign: 'center',  
