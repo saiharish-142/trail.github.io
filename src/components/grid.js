@@ -7,9 +7,9 @@ import './grid.css';
 const useStyles = makeStyles((theme) => ({
   root: {
       overflow: 'auto',
-      width: 350,
+      width: '45vh',
       backgroundColor: 'rgb(176,224,230)',
-      height: 660,
+      height: '87vh',
       paddingTop: 10,
       paddingBottom: 10,
   },
@@ -33,14 +33,14 @@ const useStyles = makeStyles((theme) => ({
       width: '100%',
       backgroundColor: '#3f51b5',
       color: 'white',
-      height: '35%',
+      height: '30vh',
       justifyContent: 'spaceAround',
       alignItems: 'center', 
       textAlign: 'center',  
   },
   body: {
       display: 'flex',
-      height: 660,
+      height: '87vh',
   }
 }));
 
