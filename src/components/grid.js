@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import OutlinedCard from './card';
-import Maps from '../maps/maps';
 import './grid.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -79,7 +78,6 @@ export default function ImageGridList() {
         </div>
         <div className={classes.right}>
             <div className={classes.map}>
-                <Maps />
             </div>
             <div className={classes.bottom}>
                 <h2 className={classes.bottom}>Driver Details</h2>
