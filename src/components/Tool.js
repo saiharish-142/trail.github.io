@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     height: '10vh',
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   title: {
     display: 'none',
