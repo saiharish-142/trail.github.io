@@ -38,7 +38,7 @@ class Map extends React.Component {
       { lat: 25.28311, lng: 83.0033 },
       { lat: 25.28203, lng: 83.00309 },
       { lat: 25.27798, lng: 83.00241 },
-      { lat: 25.27768, lng: 83.00234 },
+      { lat: 25.27782, lng: 83.00242 },
 
       { lat: 25.27714, lng: 83.00564 },
       { lat: 25.27648, lng: 83.00648 },
@@ -47,7 +47,7 @@ class Map extends React.Component {
     const MapWithAMarker = withScriptjs(
       withGoogleMap((props) => (
         <GoogleMap
-          defaultZoom={15}
+          defaultZoom={18}
           defaultCenter={{ lat: 25.27794, lng: 83.00244 }}
         >
           <Marker
