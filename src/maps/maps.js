@@ -18,14 +18,36 @@ class Map extends React.Component {
 
   render() {
     const pathCoordinates = [
-      { lat: 25.27807, lng: 83.00185 },
-      { lat: 25.27774, lng: 83.00283 },
+      { lat: 25.29932, lng: 83.00466 },
+      { lat: 25.29864, lng: 83.00449 },
+      { lat: 25.298, lng: 83.00425 },
+      { lat: 25.29767, lng: 83.00421 },
+      { lat: 25.29681, lng: 83.00441 },
+      { lat: 25.29608, lng: 83.00444 },
+      { lat: 25.29478, lng: 83.00467 },
+      { lat: 25.29292, lng: 83.00493 },
+      { lat: 25.29237, lng: 83.00497 },
+      { lat: 25.29161, lng: 83.00477 },
+      { lat: 25.28989, lng: 83.00452 },
+      { lat: 25.28952, lng: 83.00437 },
+      { lat: 25.28911, lng: 83.00403 },
+      { lat: 25.28809, lng: 83.00379 },
+      { lat: 25.28697, lng: 83.00365 },
+      { lat: 25.28603, lng: 83.00334 },
+      { lat: 25.28443, lng: 83.00352 },
+      { lat: 25.28311, lng: 83.0033 },
+      { lat: 25.28203, lng: 83.00309 },
+      { lat: 25.27798, lng: 83.00241 },
+      { lat: 25.27768, lng: 83.00234 },
+
+      { lat: 25.27714, lng: 83.00564 },
+      { lat: 25.27648, lng: 83.00648 },
     ];
 
     const MapWithAMarker = withScriptjs(
       withGoogleMap((props) => (
         <GoogleMap
-          defaultZoom={18}
+          defaultZoom={15}
           defaultCenter={{ lat: 25.27794, lng: 83.00244 }}
         >
           <Marker
